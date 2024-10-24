@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: CucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.38 s <<< FAILURE! -- in CucumberOptions.TestRunner
+CucumberOptions.TestRunner.runScenario["User search for products in home page and in Top deals page", "Search"](2) -- Time elapsed: 18.66 s <<< FAILURE!
+java.lang.AssertionError: expected [Beetroot] but found [No data]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at userStepDefinitions.TopDealsPageSteps.user_validate_the_name_of_the_product(TopDealsPageSteps.java:54)
+	at ✽.User validate the name of the product(file:///Users/priyankaraju/eclipse-workspace/cucumber_framework/src/test/java/features/search_product.feature:11)
+
